@@ -1,0 +1,33 @@
+@import "style/normalize.css";
+@import "fonts/fonts.css";
+
+
+body {
+  text-align: left;
+  border: 1px solid;
+  padding: 2% 10%;
+  margin: 2% 16% 2% 16%;
+  font-family: 'Merriweather', serif, sans-serif;
+}
+/* in case of removing padding and border from body,,,margin: 2% 26.5% 2% 25.6%;*/
+header {
+  text-align: right;
+}
+
+
+.tab {
+  padding-left: 2em;
+}
+span {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+li {
+  margin: 2% 0 2% 0;
+}
+
+footer {
+
+  padding-top: 3em;
+}
